@@ -1,0 +1,85 @@
+const products = [
+  {
+    id: "0",
+    name: "卡诗洗发水",
+    image: "/shampoo.png",
+    description: "卡诗洗发水80ml中小样旅行装体验装 多种选择小巧便携旅行必备",
+    price: "29.9",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+      { value: "0", label: "元气姜" },
+      { value: "1", label: "水光" },
+      { value: "2", label: "白金" },
+      { value: "3", label: "双重" },
+    ],
+  },
+  {
+    id: "1",
+    name: "力士沐浴露",
+    image: "/body_wash.png",
+    description: "力士沐浴露小样 樱花桃花小苍兰幽莲魅肤熏衣草100g体验装",
+    price: "29.9",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+      { value: "0", label: "小苍兰" },
+      { value: "1", label: "忍冬花" },
+      { value: "2", label: "天堂鸟" },
+      { value: "3", label: "仙人掌" },
+    ],
+  },
+  {
+    id: "2",
+    name: "蓝月亮洗衣液",
+    image: "/laundry_detergent.png",
+    description: "蓝月亮手洗专用洗衣液小样旅行装 出差迷你便携瓶装免托运",
+    price: "6.8",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+      { value: "0", label: "蓝瓶" },
+      { value: "1", label: "粉瓶" }
+    ],
+  },
+  {
+    id: "3",
+    name: "洁丽雅毛巾",
+    image: "/towel.png",
+    description: "洁丽雅毛巾3条 新疆纯棉洗脸洗澡家用成人男女士全棉柔软吸水面巾",
+    price: "28.9",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+      { value: "0", label: "浅蓝+浅粉+浅灰" },
+      { value: "1", label: "浅蓝+浅粉+深灰" },
+      { value: "2", label: "浅蓝+浅灰+深灰" },
+      { value: "3", label: "浅粉+浅灰+深灰" },
+    ],
+  },
+  {
+    id: "4",
+    name: "心相印小刘鸭湿厕纸",
+    image: "/wet_wipe.png",
+    description: "心相印小刘鸭湿厕纸便携式小包装 40片1包湿纸巾私处清洁湿巾抑菌",
+    price: "9.9",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+        { value: "0", label: "1包40片" },
+    ],
+  },
+  {
+    id: "5",
+    name: "维达手帕纸",
+    image: "/napkin.png",
+    description: "维达超韧手帕纸24包便携随身小包4层7张可湿水面巾纸家庭用实惠装",
+    price: "10.9",
+    category: "洗护好物",
+    defaultValue: "0",
+    chooseValue: [
+      { value: "0", label: "24包" },
+    ],
+  },
+];
+export default products;
